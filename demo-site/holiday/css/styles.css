@@ -1,0 +1,28 @@
+/* Styles */
+
+body {
+    background-color: aquamarine;
+}
+
+h1 {
+    color: rgb(18, 79, 79);
+    background-color: bisque;
+    font-weight: bold;
+}
+
+.container {
+    width: 80%;
+    margin: 15px auto;
+}
+
+header {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+div,
+header,
+main,
+footer {
+    border: 2px solid orange
+}
