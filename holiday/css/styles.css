@@ -1,28 +1,53 @@
 /* Styles */
 
 body {
-    background-color: aquamarine;
-}
-
-h1 {
-    color: rgb(18, 79, 79);
-    background-color: bisque;
-    font-weight: bold;
-}
-
+    background-image: url("../images/websitebackground.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+    
+    h1 {
+        color: rgb(42, 35, 61);
+            background-color: rgba(247, 240, 232, 0.5);
+            font-weight: bold;
+        font-family: serif;
+        
+                h2 {
+                    color: rgb(42, 35, 61);
+                    background-color: rgba(247, 240, 232, 0.5);
+                    font-weight: bold;
+                    font-family: serif;
+                    text-align: center;
+        
+                    h3 {
+                        font-size: small;
+                        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        
+                        p {
+                            text-align: left;
+                            font-size: small;
+                            font-family: sans-serif;
 .container {
     width: 80%;
     margin: 15px auto;
+    border: 2px solid rgb(144, 44, 61);
+        padding: 6px;
+        background: rgba(97, 26, 26, 0.6);
 }
+
 
 header {
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 div,
 header,
 main,
-footer {
-    border: 2px solid orange
+
 }
+/* footer { */
+/* border: 1px solid orange */
+/* } 
+ -->
