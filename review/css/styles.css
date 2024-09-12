@@ -4,15 +4,8 @@ body{
     color: rgb(14, 11, 11); /* this is the font color*/
 }
 
-h1 {
-    color: rgb(100, 22, 4);
-    font-family: Georgia, 'Times New Roman', Times, serif font-size: larger;
-    text-align: center;
-}
 /* create styles for the h1 tag */
-
 /* Sample - pick your own colors and settings. Make sure to include the ; at the end of the line
-
 h1{
     color: teal;
     font-family: serif;
@@ -20,29 +13,51 @@ h1{
     text-align: center;
 }
 
+*/ h1 {
+    color: rgb(100, 22, 4);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    text-align: center;
+}
 
 /* create styles for the h2 tag */
 h2 {
     color: rgb(100, 22, 4);
-    font-family: Georgia, 'Times New Roman', Times, serif font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: larger;
     text-align: center;
 }
 
 /* create styles for the h3 tag */
 h3 {
     color: rgb(100, 22, 4);
-    font-family: Georgia, 'Times New Roman', Times, serif font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: larger;
     text-align: center;
 }
 
 /* create styles for the p tag */
 p {
-    color: rgb(41, 15, 161);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif font-size: smaller text-align: left;
+    color: rgb(17, 64, 89);
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: medium;
+        text-align: left;
+    }
+    
+    blockquote {
+        color: rgb(107, 99, 98);
+        text-align: center;
+        font-size: larger;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    }
+    
+    mark {
+        background-color: burlywood;
+        color: rgb(100, 22, 4)
 }
 img{
     width: 10%;
     display: block;
-    margin: 10px auto; 
+    margin: 20px auto;
     /* this set of 3 commands centers. 10px is spacing top and bottom, auto is left and right*/
 }
