@@ -1,9 +1,14 @@
 /* Set colors for the page */
 body{
-    background-color: rgb(165, 137, 137);
+    background-color: rgb(205, 130, 130);
     color: rgb(14, 11, 11); /* this is the font color*/
 }
 
+h1 {
+    color: rgb(100, 22, 4);
+    font-family: Georgia, 'Times New Roman', Times, serif font-size: larger;
+    text-align: center;
+}
 /* create styles for the h1 tag */
 
 /* Sample - pick your own colors and settings. Make sure to include the ; at the end of the line
@@ -17,15 +22,26 @@ h1{
 
 
 /* create styles for the h2 tag */
-
+h2 {
+    color: rgb(100, 22, 4);
+    font-family: Georgia, 'Times New Roman', Times, serif font-size: larger;
+    text-align: center;
+}
 
 /* create styles for the h3 tag */
-
+h3 {
+    color: rgb(100, 22, 4);
+    font-family: Georgia, 'Times New Roman', Times, serif font-size: larger;
+    text-align: center;
+}
 
 /* create styles for the p tag */
-
+p {
+    color: rgb(41, 15, 161);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif font-size: smaller text-align: left;
+}
 img{
-    width: 60%;
+    width: 10%;
     display: block;
     margin: 10px auto; 
     /* this set of 3 commands centers. 10px is spacing top and bottom, auto is left and right*/
