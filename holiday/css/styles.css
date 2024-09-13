@@ -3,8 +3,8 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     background-image: url(../images/websitebackground.jpg);
+    background-size: cover;
 }
 
 .header {
@@ -20,8 +20,9 @@ body {
 
     color: rgb(15, 106, 106);
     margin: 15px;
-    font-size: larger;
+    font-size: large;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: justify
 
 }
 
@@ -46,4 +47,10 @@ body {
     text-align: center;
     font-size: 10px;
     
+}
+img {
+    border: 3px solid #333;
+    border-radius: 15px;
+    box-shadow: rgb(15, 106, 106);
+
 }
