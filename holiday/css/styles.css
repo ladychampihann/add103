@@ -4,6 +4,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-image: url(../images/websitebackground.jpg);
 }
 
 .header {
@@ -44,4 +45,5 @@ body {
 .footer {
     text-align: center;
     font-size: 10px;
+    
 }
