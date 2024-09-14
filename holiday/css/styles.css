@@ -118,7 +118,7 @@ p {
 }
 
 .thumbnail {
-    width: 30%;
+    width: 50%;
     border-radius: 50px;
     display: flex;
 }
