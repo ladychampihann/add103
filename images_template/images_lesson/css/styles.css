@@ -29,20 +29,22 @@ header {
 
 h2 {
     color: navy;
-    text-align: center;
+    text-align: left;
     margin: 20px;
     font-size: 1.5em;
 }
 
 h1 {
     font-size: 2em;
-    text-align: center;
+    text-align: left;
     color: navy;
 }
 
 img {
     width: 500px;
+    
 }
 p {
     margin-left: 560px;
+/* added to css to make text below each image listed as per the assignment states */
 }
