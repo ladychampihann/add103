@@ -6,6 +6,7 @@ body {
     font-size: 1.2em;
     background-color: ivory;
     color: black;
+
 }
 
 .container {
@@ -41,4 +42,7 @@ h1 {
 
 img {
     width: 500px;
+}
+p {
+    margin-left: 560px;
 }
