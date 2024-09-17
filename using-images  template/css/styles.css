@@ -5,7 +5,7 @@ body {
         background-attachment: fixed;
         background-size: cover;
         color: bisque;
-        font-size: 30px;
+        font-size: 35px;
 }
 
 /* Styling for the div and header elements, affecting the width, margin, border, and background color */
@@ -20,19 +20,21 @@ header {
     background: rgba(0, 0, 0, .7);
     /* Sets a semi-transparent black background */
     overflow: auto;
-        padding: 25px;
+    padding: 40px
 }
 
 /* Specific styling for all div elements, setting a minimum height */
 div {
-    min-height: 650px;
+    min-height: 100px;
     /* Ensures the div is at least 250px tall */
 }
 
 /* Styling for h1 and h2 headings, controlling the text alignment and color */
 h1,
 h2 {
+    font-size: 65px;
     text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     /* Centers the text horizontally */
     color: gold;
     /* Sets the text color to gold */
@@ -40,44 +42,62 @@ h2 {
 
 /* Placeholder for the background styling, add your specific styles here */
 #background {
-    /* Add background-specific styles here */
-min-height: 600px;
     background-image: url(../images/tree.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: contain;
-    background-position: top;
-}
-/* Placeholder for the image map styling, add your specific styles here */
+    background-repeat: repeat;
+        background-attachment: scroll;
+        background-size: cover;
+        background-position: center;
+        border-radius: 100px;
+        border-color: rgba(249, 250, 251, 0.5);
+        border-style: double;
+        border-width: 50px;
+    }
 #img-map {
     /* Add image map-specific styles here */
+    width: 80%;
 }
-
+#img-map img {
+    margin-left: 140px;
+}
 /* Placeholder for floating left, add your specific styles here */
 #float-left img {
     /* Add floating left-specific styles here */
     float: left;
-        width: 40%;
+        width: 55%;
+            border-color: rgb(183, 124, 15);
+            border-width: 5px;
+            border-style: solid;
 }
 
 /* Placeholder for floating right, add your specific styles here */
 #float-right img {
     /* Add floating right-specific styles here */
     float: right;
-        width: 40%;
+        width: 55%;
+            border-color: wheat;
+            border-width: 5px;
+            border-style: solid;
 }
 
 /* Placeholder for picture tag, add your specific styles here */
 #picture-tag {
     /* Add picture tag-specific styles here */
+min-height: 500px;
 }
 
 /* Placeholder for linked image, add your specific styles here */
-#linked-image {
+#linked-image img {
     /* Add linked image-specific styles here */
+    width: 70%;
 }
 
 /* Placeholder for image as a link, add your specific styles here */
 #img-as-link img {
     /* Add image as link-specific styles here */
-width: 40%;
+    width: 75%;
+        display: block;
+        border-color: rgb(35, 92, 139);
+        border-style: solid;
+        border-radius: 95%;
+        border-width: 5px;
+    }
