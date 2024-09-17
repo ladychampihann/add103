@@ -1,6 +1,11 @@
-/* Global styling for the body element */
+
 body {
-    /* Add styles here to affect the entire page */
+    background-image: url(../images/aurora-borealis.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        color: bisque;
+        font-size: 30px;
 }
 
 /* Styling for the div and header elements, affecting the width, margin, border, and background color */
@@ -14,11 +19,13 @@ header {
     /* Sets a 3px solid gold border */
     background: rgba(0, 0, 0, .7);
     /* Sets a semi-transparent black background */
+    overflow: auto;
+        padding: 25px;
 }
 
 /* Specific styling for all div elements, setting a minimum height */
 div {
-    min-height: 250px;
+    min-height: 650px;
     /* Ensures the div is at least 250px tall */
 }
 
@@ -34,21 +41,30 @@ h2 {
 /* Placeholder for the background styling, add your specific styles here */
 #background {
     /* Add background-specific styles here */
+min-height: 600px;
+    background-image: url(../images/tree.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
+    background-position: top;
 }
-
 /* Placeholder for the image map styling, add your specific styles here */
 #img-map {
     /* Add image map-specific styles here */
 }
 
 /* Placeholder for floating left, add your specific styles here */
-#float-left {
+#float-left img {
     /* Add floating left-specific styles here */
+    float: left;
+        width: 40%;
 }
 
 /* Placeholder for floating right, add your specific styles here */
-#float-right {
+#float-right img {
     /* Add floating right-specific styles here */
+    float: right;
+        width: 40%;
 }
 
 /* Placeholder for picture tag, add your specific styles here */
@@ -62,6 +78,6 @@ h2 {
 }
 
 /* Placeholder for image as a link, add your specific styles here */
-#img-as-link {
+#img-as-link img {
     /* Add image as link-specific styles here */
-}
+width: 40%;
