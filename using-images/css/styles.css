@@ -23,7 +23,9 @@ h2 {
     color: gold;
 }
 
-#background img {
+#background {
+    background-image: url(../images/tree.jpg);
+    background-position: botttom;
 }
 
 #img-map {
