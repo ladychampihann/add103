@@ -8,7 +8,7 @@ body {
 
 div,
 header {
-  width: 80%;
+  width: 75%;
   margin: 40px auto;
   border: 3px solid gold;
   background: rgba(0, 0, 0, 0.7);
@@ -20,7 +20,7 @@ header {
 }
 
 div {
-  min-height: 450px;
+  min-height: 350px;
   text-align: center;
 }
 
@@ -39,7 +39,7 @@ h2 {
 }
 
 #img-map img {
-  width: 55%;
+  width: 40%;
   border: 5px;
   border-color: rgb(200, 69, 91);
   border-style: solid;
@@ -47,7 +47,7 @@ h2 {
 
 #float-left img {
   float: left;
-  width: 40%;
+  width: 30%;
   border: 5px;
   border-color: rgb(201, 124, 7);
   border-style: solid;
@@ -55,24 +55,25 @@ h2 {
 
 #float-right img {
   float: right;
-  width: 40%;
+  width: 30%;
   border: 5px;
   border-color: rgb(137, 27, 226);
   border-style: solid;
 }
 
 #picture-tag img {
-  width: 40%;
+  width: 30%;
   border: 5px;
   border-color: rgb(19, 84, 106);
   border-style: solid;
 }
 
 #linked-image img {
-  width: 40%;
+  width: 30%;
 }
 
 #img-as-link img {
+  width: 30%;
   border: 5px;
   border-color: rgb(19, 84, 106);
   border-style: solid;
