@@ -39,7 +39,6 @@ h2 {
 }
 
 #img-map img {
-  width: 40%;
   border: 5px;
   border-color: rgb(200, 69, 91);
   border-style: solid;
@@ -47,23 +46,34 @@ h2 {
 
 #float-left img {
   float: left;
-  width: 30%;
+  margin-right: 120px;
+  width: 40%;
   border: 5px;
   border-color: rgb(201, 124, 7);
   border-style: solid;
 }
+#float-left {
+  text-align: left;
+  color: aqua;
+  overflow: auto;
+}
 
 #float-right img {
   float: right;
-  width: 30%;
+  width: 40%;
   border: 5px;
   border-color: rgb(137, 27, 226);
   border-style: solid;
 }
 
+#float-right {
+  text-align: left;
+  color:rgb(176, 96, 242);
+}
+
 #picture-tag img {
   width: 30%;
-  border: 5px;
+  border: 8px;
   border-color: rgb(19, 84, 106);
   border-style: solid;
 }
@@ -74,7 +84,7 @@ h2 {
 
 #img-as-link img {
   width: 30%;
-  border: 5px;
+  border: 8px;
   border-color: rgb(19, 84, 106);
   border-style: solid;
   border-radius: 35px;
