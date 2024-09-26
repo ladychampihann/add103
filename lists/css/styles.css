@@ -60,3 +60,10 @@ dt {
 dd {
   font-family:sans-serif;
 }
+
+footer {
+  font-size: x-small;
+  text-align: center;
+  font-weight: 200;
+  color:rgb(175, 3, 181);
+}
