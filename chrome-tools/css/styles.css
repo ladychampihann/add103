@@ -1,4 +1,57 @@
 body{
-    background: ivory;
-    font-family: Arial, Helvetica, sans-serif;
+    background: #beaac4;
+    font-family: emoji;
+    color:#c27514;
+    font-weight: bolder;
+}
+
+img{
+    width: 50%;
+    display: block;
+    margin: 10px auto;
+    padding: 5px;
+    background: #99c2f4;
+    border: 5px solid #547c72;
+    border-radius: 35px;
+
+}
+
+h1, h2 {
+    color: #547c72;
+    text-align: center;
+}
+
+p{
+    font-family: arial
+}
+
+ul {
+    list-style-type: square;
+    color: gold;
+    font-weight: bolder;
+    font-family: emoji;
+}
+
+ol {
+    list-style-type:Upper-roman;
+    color: gold;
+    font-weight: bolder;
+    font-family: emoji;
+}
+
+dl {
+    color: #c23aaf;
+    font-weight: bolder;
+    font-family: emoji;
+}
+dt {
+    font-family: cursive;
+    color: #3e70ac;
+    font-weight: bolder;
+}
+
+dd {
+    font-family:monospace;
+    color:#ffbd6f;
+    font-weight: bold;
 }
