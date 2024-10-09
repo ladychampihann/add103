@@ -106,3 +106,47 @@ border-width: 10px;
 border-style: solid;
 margin: auto;
 }
+
+p {
+    text-align: center;
+}
+
+.family {
+width: 30%;
+border-radius: 10%;
+color: rgb(163, 242, 167);
+border-width: 10px;
+border-style: solid;
+}
+
+.family-grid1 {
+display: grid;
+grid-template-columns: auto;
+margin: 15px;
+padding: 15px;
+background-color: rgb(250, 235, 215,0.4);
+border-radius: 15%;
+text-align: left;
+width: 100%;
+}
+
+
+.family-grid2 {
+display: grid;
+grid-template-columns: auto;
+margin: 15px;
+padding: 15px;
+background-color: rgb(250, 235, 215,0.4);
+border-radius: 15%;
+text-align: right;
+width:100%
+}
+
+.family-grid3 img {
+display:inline-block;
+width: 30%;
+border-radius: 10%;
+color: rgb(163, 242, 167);
+border-width: 10px;
+border-style: solid;
+}
