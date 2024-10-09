@@ -1,0 +1,10 @@
+#top-main {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 1px;
+}
+
+#top-left {
+    text-align: right;
+}
+
