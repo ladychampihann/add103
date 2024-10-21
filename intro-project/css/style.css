@@ -55,6 +55,12 @@ text-decoration: underline;
 font-size:x-large;
 }
 
+h4 {
+text-align: center;
+font-family: cursive;
+font-size: larger;
+}
+
 body {
 font-size: 18px;
 font-weight: 500;
@@ -191,4 +197,22 @@ padding: 15px;
 background-color: rgb(250, 235, 215,0.4);
 border-radius: 15%;
 width:25%
+}
+
+ul  {
+font-size: smaller;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: rgb(5, 88, 151);
+    
+}
+
+.iframe-mydog {
+width: 350px;
+height: 550px;
+overflow:hidden;
+border-radius: 10px;
+border-color: rgb(163, 242, 167);
+border-width: 10px;
+margin: 0 auto;
+display:block;
 }

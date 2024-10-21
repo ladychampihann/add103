@@ -3,7 +3,7 @@ body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-iframe {
+.mydog-grid2 {
     width: 90%;
     height: 500px;
     border: none;
