@@ -59,6 +59,7 @@ h4 {
 text-align: center;
 font-family: cursive;
 font-size: larger;
+color: rgb(29, 16, 107);
 }
 
 body {
@@ -215,4 +216,8 @@ border-color: rgb(163, 242, 167);
 border-width: 10px;
 margin: 0 auto;
 display:block;
+}
+
+ul {
+list-style-type: square;    
 }
