@@ -1,15 +1,4 @@
 /*
-   Dark primary = #4D0273
-   Dark secondary = #697D22
-   background = #1E2601
-   medium primary = #863CAB
-   medium secondary = #99AB59
-   light text = ivory
-   dark text = black
-
-*/
-
-/*
    Dark primary = #91808D
    Dark secondary = #496665
    background = #E6D585
@@ -76,4 +65,10 @@ main{
     margin: 10px auto;
     border: 2px solid gold;
     color: blue;
+}
+
+footer {
+    text-align: center;
+    font-size: small;
+    color: black;    
 }
