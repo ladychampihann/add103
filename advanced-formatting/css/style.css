@@ -29,13 +29,14 @@ font-weight: 600;
 text-shadow: #000000;
 }
 
+/* 3) border-image used unicorn pic utlizing w3 schools  */
 .container {
-  border: 10px solid transparent;
-  padding: 15px;
-  border-image: url() 30 round;    
+  border: 120px solid transparent;
+  padding: 30px;
+  border-image: url(/advanced-formatting/images/unicorn.png) round;
 }
 
-/* 3) Text Shadow with CSS3 Generator */
+/* 4) Text Shadow with CSS3 Generator */
 h1 {
 color:rgb(45, 48, 60);
 text-shadow: 4px 4px 4px #73ECFF;
@@ -61,8 +62,13 @@ footer {
 text-align: center;
 }
 
-/* 4) Outline with CSS3 Generator  */
+/* 5) Outline with CSS3 Generator  */
 img {
     margin-left: 35px;
     outline: 15px ridge #36BCFF;
+}
+
+title img {
+    background: url(/advanced-formatting/images/unicorn.png);
+
 }
