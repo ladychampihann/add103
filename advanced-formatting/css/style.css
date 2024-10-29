@@ -49,7 +49,7 @@ border-image: url(/add103/advanced-formatting/images/unicorn.png) 49% round;
 
 /* 4) Text Shadow with CSS3 Generator */
 h1 {
-color:rgb(45, 48, 60);
+color:rgb(45, 48, 60,);
 text-shadow: 4px 4px 4px #73ECFF;
 font-size: 45px;
 text-align: center;
