@@ -1,3 +1,5 @@
+/* 
+unicorn story source: https://chatgpt.com/share/6720317b-03f4-800c-8232-2b18ecd0514c */
 
 /* 1) CSS Gradient Background: https://cssgradient.io/ */
 html {
@@ -29,11 +31,16 @@ font-weight: 600;
 text-shadow: #000000;
 }
 
-/* 3) border-image used unicorn pic utlizing w3 schools  */
+nav a:hover{
+  text-decoration: none;
+  background-color:#73ECFF;
+}
+
+/* 3) border-image used unicorn pic utlizing w3 schools code */
 .container {
-  border: 120px solid transparent;
-  padding: 30px;
-  border-image: url(/advanced-formatting/images/unicorn.png) round;
+border: 120px solid transparent;
+padding: 30px;
+border-image: url(/add103/advanced-formatting/images/unicorn.png) 49% round;
 }
 
 /* 4) Text Shadow with CSS3 Generator */
@@ -45,7 +52,7 @@ text-align: center;
 }
 
 h2 {
-font-size: 40px;
+font-size: 55px;
 color: rgb(0, 0, 0);
 text-shadow: 3px 3px 3px #138923;
 }
@@ -54,21 +61,22 @@ text-shadow: 3px 3px 3px #138923;
 p {
 color: blanchedalmond;
 font-weight: 600;
-font-size: 30px;
+font-size: 45px;
 line-height: 2;
 }
 
 footer {
-text-align: center;
+/* text-align: center; */
 }
 
 /* 5) Outline with CSS3 Generator  */
+/* 6) Rounded Corners */
 img {
     margin-left: 35px;
     outline: 15px ridge #36BCFF;
+    border-radius: 20%;
 }
 
 title img {
     background: url(/advanced-formatting/images/unicorn.png);
-
 }
