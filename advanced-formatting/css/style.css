@@ -12,6 +12,7 @@ background: linear-gradient(90deg, rgba(58,140,180,1) 0%, rgba(248,29,253,1) 50%
 body {
 font-family: sans-serif;
 }
+
 nav {
 background-color:rgb(45, 48, 60);
 text-align: center;
@@ -30,7 +31,7 @@ border-radius: 25px;
 border: 5px solid rgb(29, 16, 107);
 text-decoration: none;
 color: #000200;
-font-size: 40px;
+font-size: 20px;
 font-weight: 600;
 text-shadow: #000000;
 }
@@ -51,12 +52,12 @@ border-image: url(/add103/advanced-formatting/images/unicorn.png) 49% round;
 h1 {
 color:rgb(45, 48, 60,);
 text-shadow: 4px 4px 4px #73ECFF;
-font-size: 45px;
+font-size: 30px;
 text-align: center;
 }
 
 h2 {
-font-size: 55px;
+font-size: 25px;
 color: rgb(0, 0, 0);
 text-shadow: 3px 3px 3px #138923;
 }
@@ -65,7 +66,7 @@ text-shadow: 3px 3px 3px #138923;
 p {
 color: blanchedalmond;
 font-weight: 600;
-font-size: 35px;
+font-size: 25px;
 line-height: 2;
 }
 
@@ -84,6 +85,7 @@ border: 8px solid #73ECFF;
 /* 6) Rounded Corners */
 img {
 margin-left: 35px;
+width: 25%;
 outline: 15px ridge #36BCFF;
 border-radius: 20%;
 }
