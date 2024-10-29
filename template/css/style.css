@@ -2,17 +2,38 @@
    Dark primary = #91808D
    Dark secondary = #496665
    background = #E6D585
-   medium primary = #85E6E4
-   medium secondary = #85E6E4
+   medium Pink primary = #E685CF
+   medium Blue secondary = #85E6E4
    light text = ivory
    dark text = black
 
 */
-
+html {
+  background-color: #E6D585;
+}
 .chicle-regular, p {
   font-family: "Chicle", serif;
   font-weight: 400;
   font-style: normal;
+}
+
+nav a {
+padding: 5px 5px;
+margin: 15px 15px;
+line-height: 4;
+background-color: #496665;
+border: 5px solid #96257c;
+border-radius: 30px;
+text-decoration: none;
+color: ivory;
+font-size: 15px;
+font-weight: 600;
+text-shadow: #000000;
+}
+
+nav a:hover{
+text-decoration: none;
+background-color:#85E6E4;
 }
 
 .hi-melody-regular, h1, h2, h3 {
@@ -21,24 +42,26 @@
   font-style: normal;
 }
 
+
 /*   remove  background and borders   */
 header{
-    border: 2px solid gold;
-    background: ivory;
+    border: 5px solid #85E6E4;
+    background: #E6D585;
     min-height: 100px;
+    text-align: center;
 }
 .container{
-    border: 2px solid gold;
-    background: black;
+    border: 5px solid #85E6E4;
+    background: #96257c;
     width: 80%;
-    margin: 10px auto;
+    margin: 25px auto;
     padding: 15px;
 }
 nav{
     text-align: center;
     padding: 15px;
-    border: 2px solid gold;
-    background: purple;
+    border: 5px solid #85E6E4;
+    background: #E685CF;
     color: white;
 }
 aside{
@@ -46,8 +69,9 @@ aside{
     margin: 10px;
     float: right;
     min-height: 100px;
-    border: 2px solid gold;
-    background: green;
+    min-width: 250px;
+    border: 5px solid #85E6E4;
+    background: #496665;
 }
 
 figure{
@@ -55,20 +79,21 @@ figure{
     width: 40%;
     margin: 10px;
     float:left;
-    border: 2px solid gold;
-    background: brown;
+    border: 5px solid #85E6E4;
+    background: #91808D;
     padding: 15px;
+    overflow:visible;
 }
 
 main{
     width: 95%;
     margin: 10px auto;
-    border: 2px solid gold;
-    color: blue;
+    border: 2px solid #85E6E4;
+    color: #E685CF;
 }
 
 footer {
     text-align: center;
     font-size: small;
-    color: black;    
+    color: ivory;
 }
