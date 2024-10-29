@@ -10,7 +10,7 @@ background: linear-gradient(90deg, rgba(58,140,180,1) 0%, rgba(248,29,253,1) 50%
 /* Useful code generator: https://css3generator.com/ */
 
 body {
-  font-family: sans-serif;
+font-family: sans-serif;
 }
 nav {
 background-color:rgb(45, 48, 60);
@@ -36,8 +36,8 @@ text-shadow: #000000;
 }
 
 nav a:hover{
-  text-decoration: none;
-  background-color:#73ECFF;
+text-decoration: none;
+background-color:#73ECFF;
 }
 
 /* 3) border-image used unicorn pic utlizing w3 schools code */
@@ -65,7 +65,7 @@ text-shadow: 3px 3px 3px #138923;
 p {
 color: blanchedalmond;
 font-weight: 600;
-font-size: 45px;
+font-size: 35px;
 line-height: 2;
 }
 
