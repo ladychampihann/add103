@@ -1,14 +1,14 @@
 /* Variables */
 
 :root {
-  --dark_primary: #00796b;
-  --light_primary: #b2dfdb;
-  --primary: #009688;
-  --light_text: #ffffff;
-  --accent: #ffeb3b;
-  --dark_text: #212121;
-  --head_font: "Hepta Slab", serif;
-  --p_font: "Outfit", sans-serif;
+    --dark_primary: #00796b;
+    --light_primary: #b2dfdb;
+    --primary: #009688;
+    --light_text: #ffffff;
+    --accent: #ffeb3b;
+    --dark_text: #212121;
+    --head_font: "Hepta Slab", serif;
+    --p_font: "Outfit", sans-serif;
 }
 
 /* CSS reset */
@@ -161,8 +161,8 @@ h3 {
 }
 
 body {
-  background:var(--dark_primary);
-  color: var(--dark_text);
+  background:#00796b
+  color: black;
   line-height: 1.5;
   font-size: 24px;
   font-weight: bold;
