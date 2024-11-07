@@ -1,12 +1,12 @@
 /* Variables */
 
 :root {
-    --dark_primary: #00796b;
-    --light_primary: #b2dfdb;
-    --primary: #009688;
+    --dark_primary: #E6D585;
+    --light_primary: #E685CF;
+    --primary: #85E6E4;
     --light_text: #ffffff;
-    --accent: #ffeb3b;
-    --dark_text: #212121;
+    --accent: #91808D;
+    --dark_text: #496665;
     --head_font: "Hepta Slab", serif;
     --p_font: "Outfit", sans-serif;
 }
