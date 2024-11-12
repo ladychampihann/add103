@@ -28,8 +28,8 @@
         <br>
         <h2>Team Performance and Practice:</h2>
         <h3>How effective was this week's practice in improving team skills?</h3>
-        <input list="rating" name="rating" placeholder="Select a rating" required>
-        <datalist id="rating">
+        <input list="rating1" name="rating1" placeholder="Select a rating" required>
+        <datalist id="rating1">
         <option value="5 - Excellent">
         <option value="4 - Above Average">
         <option value="3 - Average">
@@ -37,8 +37,8 @@
         <option value="1 - Needs Improvement">
         </datalist>
         <h3>How would you rate the overall team morale this week?</h3>
-        <input list="rating" name="rating" placeholder="Select a rating" required>
-        <datalist id="rating">
+        <input list="rating2" name="rating2" placeholder="Select a rating" required>
+        <datalist id="rating2">
         <option value="5 - Excellent">
         <option value="4 - Above Average">
         <option value="3 - Average">
@@ -48,27 +48,27 @@
         <h2>Coaching Feedback:</h2>
         <h3>How would you rate the coach's communication this week?</h3>
         <input type="radio" id="excellent" name="coach_feedback" value="Excellent">
-        <label for="Excellent">Excellent</label><br>
-        <input type="radio" id="good" name="coach_feedback" value="Good">
-        <label for="Good">Good</label><br>
+        <label for="excellent">Excellent</label><br>
+        <input type="radio" id="good1" name="coach_feedback" value="Good">
+        <label for="good1">Good</label><br>
         <input type="radio" id="fair" name="coach_feedback" value="Fair">
-        <label for="Fair">Fair</label><br>
+        <label for="fair">Fair</label><br>
         <input type="radio" id="needsimprovement" name="coach_feedback" value="Needs Improvement">
-        <label for="Needs Improvement">Needs Improvement</label><br><br>       
+        <label for="needsimprovement">Needs Improvement</label><br><br>       
         <h3>Was the coach's feedback clear and helpful during practice?</h3>
         <input type="radio" id="Yes" name="coach_feedback2" value="Yes">
         <label for="Yes">Yes</label><br>
-        <input type="radio" id="good" name="coach_feedback2" value="No">
+        <input type="radio" id="No" name="coach_feedback2" value="No">
         <label for="No">No</label><br>
         <input type="radio" id="sometimes" name="coach_feedback2" value="Sometimes">
-        <label for="Sometimes">Sometimes</label><br><br>           
+        <label for="sometimes">Sometimes</label><br><br>           
         <h3>Did the coach provide enough individual attention to players?</h3>
         <input type="radio" id="always" name="coach_feedback3" value="Always">
-        <label for="Always">Always</label><br>
-        <input type="radio" id="good" name="coach_feedback3" value="Sometimes">
-        <label for="Sometimes">Sometimes</label><br>
+        <label for="always">Always</label><br>
+        <input type="radio" id="sometimes2" name="coach_feedback3" value="Sometimes">
+        <label for="sometimes2">Sometimes</label><br>
         <input type="radio" id="never" name="coach_feedback3" value="Never">
-        <label for="Never">Never</label><br><br>           
+        <label for="never">Never</label><br><br>           
         <h2>Suggestions for Improvement:</h2>
         <h3>What do you think the team could improve on in future practices?</h3>
         <textarea name="message" rows="8" cols="85"></textarea>        
@@ -77,7 +77,6 @@
         <h3>Any other comments or feedback?</h3>
         <textarea name="message" rows="8" cols="85"></textarea><br><br>
         <h3>Pick two areas you would like the team to focus on immediately: </h3>
-        <form action="/action_page.php">
         <input type="checkbox" id="focus1" name="focus1" value="Communication">
         <label for="focus1"> Team Communication</label><br>
         <input type="checkbox" id="focus2" name="focus2" value="Fielding">
@@ -98,7 +97,6 @@
         <label for="focus9"> Team Bonding</label><br>
         <input type="checkbox" id="focus10" name="focus10" value="Coach">
         <label for="focus10"> Coaching and Feedback</label><br><br>
-        </form> 
         <label for="name">Submit Feedback by Clicking on the Softball below!</label><br>    
         <input type="image" src="./images/softball-pitch.webp" alt="Submit" width="200">
         <h3>Thanks! Your feedback helps us grow stronger as a team—together, we’re always improving!</h3>
