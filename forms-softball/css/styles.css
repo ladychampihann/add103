@@ -25,6 +25,13 @@ input[type=text] {
   border-width: 3px;
 }
 
+label {
+  font-size: 12px;
+  font-weight: bold;
+  display:inline-block;
+  margin-bottom: 3px;
+  }
+
 select {
   box-sizing: border-box;
   border-color: blue;
