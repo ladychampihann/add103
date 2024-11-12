@@ -3,42 +3,106 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MCC Softball Feedback Form</title>
+    <title>Softball Feedback Form</title>
     <link rel="stylesheet" href="css/styles.css">    
 </head>
 <body>
     <div class="container">
         <header>
-            <h1>MCC Softball Feedback Form</h1>
-            <h3>Thank you for taking the time to share your thoughts! Your feedback is important to us. Please take a moment to provide your insights on this week’s experience.</h3>
+            <h1>Softball Feedback Form</h1>
+            <p>Thank you for taking the time to share your thoughts! Your feedback is important to us. Please take a moment to provide your insights on this week’s experience.</p>
         </header>
     <main>
         <form action="/action_page.php">
-        <label for="name">Player Name (Optional)</label><br>
-        <input type="text" id="fname" name="fname"><br>
+        <label for="name">Name (Optional)</label><br>
+        <input type="text" id="name" name="name"><br>
+        <label for="type">Choose a feedback type:</label>
+        <select id="type" name="persontype">
+          <option value="default">Not Selected</option>  
+          <option value="player">Player</option>
+          <option value="parent">Parent</option>
+          <option value="other">Other</option>
+          <option value="volunteer">Volunteer</option>
+        </select>
+        <input type="date" id="date" name="date"><br>        
         <br>
         <h2>Coaching Feedback:</h2>
         <h3>How would you rate the coach's communication this week?</h3>
+        <form action="/action_page.php">
+        <input type="radio" id="excellent" name="coach_feedback" value="Excellent">
+        <label for="Excellent">Excellent</label><br>
+        <input type="radio" id="good" name="coach_feedback" value="Good">
+        <label for="Good">Good</label><br>
+        <input type="radio" id="fair" name="coach_feedback" value="Fair">
+        <label for="Fair">Fair</label><br>
+        <input type="radio" id="needsimprovement" name="coach_feedback" value="Needs Improvement">
+        <label for="Needs Improvement">Needs Improvement</label><br><br>       
         <h3>Was the coach's feedback clear and helpful during practice?</h3>
+        <input type="radio" id="Yes" name="coach_feedback2" value="Yes">
+        <label for="Yes">Yes</label><br>
+        <input type="radio" id="good" name="coach_feedback2" value="No">
+        <label for="No">No</label><br>
+        <input type="radio" id="sometimes" name="coach_feedback2" value="Sometimes">
+        <label for="Sometimes">Sometimes</label><br><br>           
         <h3>Did the coach provide enough individual attention to players?</h3>
-        <h3>How motivated did the coach make you feel during practice?</h3>
+        <input type="radio" id="always" name="coach_feedback3" value="Always">
+        <label for="Always">Always</label><br>
+        <input type="radio" id="good" name="coach_feedback3" value="Sometimes">
+        <label for="Sometimes">Sometimes</label><br>
+        <input type="radio" id="never" name="coach_feedback3" value="Never">
+        <label for="Never">Never</label><br><br>           
         <h2>Team Performance and Practice:</h2>
         <h3>How effective was this week's practice in improving team skills?</h3>
-        <h3>What skills do you think we need to work on as a team?</h3>
-        <h3>What aspects of practice do you enjoy the most?</h3>
+        <input list="rating" name="rating">
+        <datalist id="rating">
+        <option value="5 - Excellent">
+        <option value="4 - Above Average">
+        <option value="3 - Average">
+        <option value="2 - Below Average">
+        <option value="1 - Needs Improvement">
+        </datalist>
         <h3>How would you rate the overall team morale this week?</h3>
+        <input list="rating" name="rating">
+        <datalist id="rating">
+        <option value="5 - Excellent">
+        <option value="4 - Above Average">
+        <option value="3 - Average">
+        <option value="2 - Below Average">
+        <option value="1 - Needs Improvement">
+        </datalist>
         <h2>Suggestions for Improvement:</h2>
-        <h3>What do you think could improve in future practices?</h3>
-        <h3>What else would you like to see the coaches focus on in upcoming weeks?</h3>
+        <h3>What do you think the team could improve in future practices?</h3>
+        <textarea name="message" rows="8" cols="85"></textarea>        
+        <h3>What do you enjoy the most? What do you enjoy least?</h3>
+        <textarea name="message" rows="8" cols="85"></textarea>           
         <h3>Any other comments or feedback?</h3>
-
-
-        <!-- <form action="/action_page.php">
-        <label for="quantity">Rate (between 1 and 5):</label>
-        <input type="number" id="quantity" name="quantity" min="1" max="5">
-        <input type="submit" value="Submit"> -->
-        <label for="name">Click on the to Submit Feedback!</label><br>    
-        <input type="image" src="./images/softball-pitch.webp" alt="Submit" width="85" height="85"> 
+        <textarea name="message" rows="8" cols="85"></textarea><br><br>
+        <h3>Pick two areas you would like the team to focus on immediately: </h3>
+        <form action="/action_page.php">
+        <input type="checkbox" id="focus1" name="focus1" value="Communication">
+        <label for="focus1"> Team Communication</label><br>
+        <input type="checkbox" id="focus2" name="focus2" value="Fielding">
+        <label for="focus2"> Fielding Fundamentals</label><br>
+        <input type="checkbox" id="focus3" name="focus3" value="Pitching">
+        <label for="focus3"> Pitching</label><br>
+        <input type="checkbox" id="focus4" name="focus4" value="Hitting">
+        <label for="focus4"> Hitting</label><br>
+        <input type="checkbox" id="focus5" name="focus5" value="Running">
+        <label for="focus5"> Base Running</label><br>
+        <input type="checkbox" id="focus6" name="focus6" value="Situations">
+        <label for="focus6"> Situational Awareness</label><br>
+        <input type="checkbox" id="focus7" name="focus7" value="Mental">
+        <label for="focus7"> Mental Toughness</label><br>
+        <input type="checkbox" id="focus8" name="focus8" value="Strength">
+        <label for="focus8"> Strength and Conditioning</label><br>
+        <input type="checkbox" id="focus9" name="focus9" value="Bonding">
+        <label for="focus9"> Team Bonding</label><br>
+        <input type="checkbox" id="focus10" name="focus10" value="Coach">
+        <label for="focus10"> Coaching and Feedback</label><br><br>
+        </form> 
+        <label for="name">Submit Feedback by Clicking on the Softball below!</label><br>    
+        <input type="image" src="./images/softball-pitch.webp" alt="Submit" width="200">
+        <h3>Thanks! Your feedback helps us grow stronger as a team—together, we’re always improving!</h3>
     </form>
 
     </form> 

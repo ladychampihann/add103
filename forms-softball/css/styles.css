@@ -1,23 +1,21 @@
-
-/* html {
-    background-image: url(../images/fence-background.jpg);
-    background-size:cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    b */
-/* } */
-
-html {  
-  background-image: linear-gradient(rgb(215, 178, 47), rgb(93, 38, 123));}
+body {  
+  background-image: linear-gradient(rgb(171, 53, 238), rgb(215, 178, 47),rgb(99, 176, 117));}
 
 input[type=text] {
-  width: 40%;
+  width: 30%;
   padding: 12px 20px;
   margin: 8px 0;
   box-sizing: border-box;
 }
 
+.container {
+    font-size: 12px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(51, 11, 73);
+}
 footer {
     text-align: center;
-    font-size: 12px;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
