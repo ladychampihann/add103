@@ -1,14 +1,20 @@
 body {  
   background-image: linear-gradient(rgb(171, 53, 238), rgb(215, 178, 47),rgb(99, 176, 117));}
 
+h1 {
+  font-size: 35px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 h3,h2, {
   font-size: 12px;
 }
 
 p{
-  font-size: 16px;
+  font-size: 14px;
   font-family:cursive;
   color:gold;
+  text-align: justify;
 }
 input[type=text] {
   width: 30%;
@@ -42,7 +48,4 @@ input[list=rating] {
 }
 footer {
     text-align: center;
-    font-size: 14px;
-    font-weight: 600;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
