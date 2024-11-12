@@ -10,11 +10,8 @@ h3,h2, {
   font-size: 12px;
 }
 
-p{
-  font-size: 14px;
-  font-family:cursive;
-  color:gold;
-  text-align: justify;
+h2 {
+  color:goldenrod;
 }
 input[type=text] {
   width: 30%;
@@ -31,6 +28,10 @@ label {
   display:inline-block;
   margin-bottom: 3px;
   }
+label[for=name] {
+  color: yellow;
+  font-size: 18px;
+}
 
 select {
   box-sizing: border-box;
@@ -55,4 +56,6 @@ input[list=rating] {
 }
 footer {
     text-align: center;
+    font-size: 12px;
+    color:bisque;
 }
