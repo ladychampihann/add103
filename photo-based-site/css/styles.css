@@ -1,6 +1,8 @@
 
 
-
+html {
+    background-color: #DCEDC8;
+}
 .sour-gummy-regular, p, nav, footer {
   font-family: "Sour Gummy", sans-serif;
   font-optical-sizing: auto;
@@ -14,15 +16,37 @@
   font-family: "Moo Lah Lah", sans-serif;
   font-weight: 400;
   font-style: normal;
+  color: #212121;
 }
 
 h1 {
-    font-size: 45px;
+    font-size: 60px;
     text-align: center;
 }
 
 nav {
     text-align: center;
+}
+
+nav a{ 
+margin: 20px;
+color: #212121;
+text-decoration: none;
+font-size: 18px;
+font-weight: bold;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+padding: 8px 25px;
+line-height: 3;
+background-color: #8BC34A;
+border-radius: 5px;
+border: 2px #BDBDBD;
+}
+
+nav a:hover{
+color: #212121;
+background: #DCEDC8;
+font-weight: bold;
+text-shadow: 1px 1px 1px #03A9F4;
 }
 
 footer {
