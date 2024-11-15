@@ -1,0 +1,32 @@
+
+
+
+.sour-gummy-regular, p, nav, footer {
+  font-family: "Sour Gummy", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.moo-lah-lah-regular, h1 {
+  font-family: "Moo Lah Lah", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+    font-size: 45px;
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+}
+
+footer {
+    font-size: 14px;
+    text-align: center;
+
+}
