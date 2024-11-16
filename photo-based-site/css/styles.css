@@ -22,8 +22,18 @@ html {
 h1 {
     font-size: 60px;
     text-align: center;
+    text-shadow: 3px 2px #BDBDBD;
 }
 
+p {
+    text-align: left;
+    line-height: 110%;
+    font-size: 16px;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
 nav {
     text-align: center;
 }
@@ -40,7 +50,7 @@ border-radius: 5px;
 text-shadow: 1px 1px 1px #757575;
 border-style: outset;
 border-color: #212121;
-border-width: 2px;
+border-width: 3px;
 }
 
 nav a:hover{
@@ -50,11 +60,113 @@ font-weight: bold;
 text-shadow: 1px 1px 1px #757575;
 border-style: inset;
 border-color: #212121;
-border-width: 2px;
+border-width: 3px;
 }
 
+.grid-container-home {
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr; 
+  gap: 5px;
+  background-color: #8BC34A;
+  padding: 25px;
+  border-radius: 5px 5px 0px 0px;
+}
+.grid-container-home > div img {
+  background-color: #8BC34A;
+  text-align: center;
+  cursor: pointer;
+}
+
+.grid-container-home2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr; 
+  gap: 5px;
+  background-color: #8BC34A;
+  padding: 25px;
+  border-radius: 0px 0px 5px 5px;
+}
+.grid-container-home2 > div {
+  background-color: #8BC34A;
+  text-align: center;
+  cursor: pointer;
+}
+
+.grid-container-adventures {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr; 
+  gap: 5px;
+  background-color: #8BC34A;
+  padding: 25px;
+  border-radius: 5px 5px 0px 0px;  
+}
+.grid-container-adventures > div {
+  background-color: #8BC34A;
+  text-align: center;
+  cursor: pointer;
+}
+
+.grid-container-adventures2 {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr; 
+  gap: 5px;
+  background-color: #8BC34A;
+  padding: 25px;
+  border-radius: 0px 0px 5px 5px;  
+}
+.grid-container-adventures2 > div img {
+  background-color: #8BC34A;
+  text-align: center;
+  cursor: pointer;
+}
+
+.grid-container-gallery {
+  display: grid;
+  grid-template-columns: 2fr 1fr; 
+  gap: 5px;
+  background-color: #8BC34A;
+  border-radius: 5px;
+  padding: 25px;
+}
+
+.grid-container-gallery > div img {
+  background-color: #8BC34A;
+  text-align: center;
+  cursor: pointer;
+}
+
+.grid-container-pics {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; 
+  gap: 15px;
+  background-color: #8BC34A;
+  padding: 15px;
+}
+
+.grid-container-life {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; 
+  gap: 15px;
+  background-color: #8BC34A;
+  padding: 15px;
+  border-radius: 5px;  
+}
+
+.grid-container-life > div img {
+  background-color: #8BC34A;
+  text-align: center;
+  cursor: pointer;
+}
+
+img {
+  width: 80%;
+  display:block;
+  border-width: 3px;
+  border-color: whitesmoke #BDBDBD;
+  border-style: solid;
+  border-radius: 5px;
+
+}
 footer {
     font-size: 14px;
     text-align: center;
-
 }
