@@ -32,21 +32,25 @@ nav a{
 margin: 20px;
 color: #212121;
 text-decoration: none;
-font-size: 18px;
-font-weight: bold;
-font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-padding: 8px 25px;
+font-size: 20px;
+padding: 6px 20px;
 line-height: 3;
 background-color: #8BC34A;
 border-radius: 5px;
-border: 2px #BDBDBD;
+text-shadow: 1px 1px 1px #757575;
+border-style: outset;
+border-color: #212121;
+border-width: 2px;
 }
 
 nav a:hover{
 color: #212121;
-background: #DCEDC8;
+background: #03A9F4;
 font-weight: bold;
-text-shadow: 1px 1px 1px #03A9F4;
+text-shadow: 1px 1px 1px #757575;
+border-style: inset;
+border-color: #212121;
+border-width: 2px;
 }
 
 footer {
