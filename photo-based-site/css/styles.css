@@ -22,7 +22,14 @@ html {
 h1 {
     font-size: 60px;
     text-align: center;
-    text-shadow: 3px 2px #BDBDBD;
+    text-shadow: 2px 3px 1px #757575;
+    background-color: #DCEDC8;
+    /* border-radius: 5px;
+    border-color: #03A9F4;
+    border-style:outset;  */
+    border-width: 5px;
+    letter-spacing: 3px;
+
 }
 
 p {
@@ -181,7 +188,7 @@ border-width: 3px;
 img {
   width: 95%;
   display:block;
-  border-width: 3px;
+  border-width: 4px;
   border-color: whitesmoke #BDBDBD;
   border-style: solid;
   border-radius: 5px;
@@ -189,7 +196,9 @@ img {
 
 }
 footer {
-    font-size: 14px;
+    font-size: 12px;
     text-align: center;
     font-weight: 300;
+    background-color: #BDBDBD;
+    border-radius: 5px;
 }
