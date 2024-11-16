@@ -1,9 +1,20 @@
 
 
 html {
-    background-color: #DCEDC8;
+  background-color: #DCEDC8;
 }
-.sour-gummy-regular, p, nav, footer, section {
+
+#title {
+  background-image: linear-gradient(#03A9F4, #BDBDBD,#689F38);
+  margin: auto;
+  padding: 25px;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #212121;
+  border-width: 3px;
+}
+
+.sour-gummy-regular, p, nav, footer, section, h3 {
   font-family: "Sour Gummy", sans-serif;
   font-optical-sizing: auto;
   font-weight: 600;
@@ -39,10 +50,17 @@ p {
     margin: auto;
     padding-left: 20px;
     padding-right: 20px;
-    
+}
+
+section {
+  margin-left: 20%;
+  margin-right: 20%;
+  text-align: center;
 }
 nav, section {
-    text-align: center;
+  text-align: center;
+  padding: 25px;
+
 }
 
 nav a, section a{ 
@@ -169,20 +187,48 @@ border-width: 3px;
   min-height:100%;
   max-height: 100%;
   margin-left: -0%;
+  /* padding-inline: 30px;
+  padding-inline-start: 30px; */
   border-radius: 5px;  
   text-align: left;
-  display:inline-block;
+  display:block;
   border-style: solid;
   border-color: #212121;
   border-width: 3px;
-
-
 }
 
 .life {
   line-height: 150%;
   margin-left: 5%;
   margin-right: 5%;
+}
+
+.grid-container-video {
+  display: grid;
+  grid-template-columns: 1fr; 
+  gap: 5px;
+  background-color: #03A9F4;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+.container-videos {
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  gap: 25px;
+  background-color: #03A9F4;
+  border-radius: 5px;
+  padding: 15px;
+  margin-left: 30px;
+  margin-right: 15px;
+}
+
+
+iframe {
+  min-width: 400px;
+  min-height: 450px;
+  /* min-height: 100px;
+  max-height: 600px; */
 }
 
 img {
@@ -192,9 +238,8 @@ img {
   border-color: whitesmoke #BDBDBD;
   border-style: solid;
   border-radius: 5px;
-
-
 }
+
 footer {
     font-size: 12px;
     text-align: center;
