@@ -14,7 +14,7 @@ html {
   border-width: 3px;
 }
 
-.sour-gummy-regular, p, nav, footer, section, h3 {
+.sour-gummy-regular, p, nav, footer, section, h3, figure {
   font-family: "Sour Gummy", sans-serif;
   font-optical-sizing: auto;
   font-weight: 600;
@@ -50,6 +50,13 @@ p {
     margin: auto;
     padding-left: 20px;
     padding-right: 20px;
+}
+figure {
+  font-size: 60%;
+  color: #212121;
+  text-align: left;
+  text-indent: 15px;
+  display: inline;
 }
 
 section {
