@@ -227,7 +227,7 @@ border-width: 3px;
 
 .container-videos {
   display: grid;
-  grid-template-columns: 1fr 1fr; 
+  grid-template-columns: 2fr 1fr; 
   gap: 25px;
   background-color: #03A9F4;
   border-radius: 5px;
@@ -238,7 +238,7 @@ border-width: 3px;
 
 
 iframe {
-  min-width: 50%;
+  min-width: 80%;
   min-height: 450px;
   margin-bottom: 50px;
   /* min-width: 400px;
