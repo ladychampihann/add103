@@ -182,13 +182,15 @@ border-width: 3px;
   gap: 15px;
   background-color: #8BC34A;
   padding: 15px;
-  border-radius: 5px;  
+  border-radius: 5px;
 }
 
 .grid-container-life > div img {
   background-color: #8BC34A;
   text-align:left;
   cursor: pointer;
+  width: 100%;
+  height:auto
 }
 
 .grid-container-life > div p {
@@ -205,12 +207,14 @@ border-width: 3px;
   border-color: #212121;
   border-width: 3px;
 
+
 }
 
 .life {
   line-height: 150%;
   margin-left: 5%;
   margin-right: 5%;
+  margin: auto;
 
 }
 
