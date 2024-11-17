@@ -253,6 +253,10 @@ iframe {
   max-height: 600px; */
 }
 
+video {
+  width: 50%;
+  height: auto;
+}
 img {
   width: 95%;
   height: auto;
