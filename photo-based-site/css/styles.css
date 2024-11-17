@@ -221,7 +221,7 @@ border-width: 3px;
   padding: 15px;
 }
 .grid-container-video > div p {
-  font-size: 150%;
+  font-size: 110%;
   margin-top: 10%;
 }
 
@@ -238,14 +238,18 @@ border-width: 3px;
 
 
 iframe {
-  min-width: 400px;
+  min-width: 50%;
   min-height: 450px;
+  margin-bottom: 50px;
+  /* min-width: 400px;
+  min-height: 450px; */
   /* min-height: 100px;
   max-height: 600px; */
 }
 
 img {
   width: 95%;
+  height: auto;
   display:block;
   border-width: 4px;
   border-color: whitesmoke #BDBDBD;
