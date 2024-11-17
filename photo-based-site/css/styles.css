@@ -204,12 +204,14 @@ border-width: 3px;
   border-style: solid;
   border-color: #212121;
   border-width: 3px;
+
 }
 
 .life {
   line-height: 150%;
   margin-left: 5%;
   margin-right: 5%;
+
 }
 
 .grid-container-video {
