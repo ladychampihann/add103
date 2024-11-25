@@ -1,0 +1,33 @@
+
+.container-fluid {
+    width: 90%;
+    margin: 10px auto;
+}
+
+.display-1 {
+    text-align: center;
+}
+
+.display-6 {
+    text-align: center;
+}
+
+.text-bg-danger {
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+footer {
+    text-align: center;
+}
+
+img {
+    width: 70%;
+    margin-left: 20px
+}
+
+h1 {
+    text-align: center;
+}
