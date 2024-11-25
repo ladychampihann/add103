@@ -11,9 +11,11 @@
     text-align: center;
 }
 
-.text-danger {
+.text-bg-danger {
     text-align: center;
     margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
 footer {
