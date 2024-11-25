@@ -87,7 +87,8 @@ border-color: #212121;
 border-width: 3px;
 }
 
-nav a:hover, section a:hover{
+
+nav a:hover, section a:hover,{
 color: #212121;
 background: #03A9F4;
 font-weight: bold;
