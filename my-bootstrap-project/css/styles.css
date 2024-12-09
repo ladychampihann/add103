@@ -9,3 +9,7 @@ footer {
 body {
   background-color: lightblue;
 }
+
+.active {
+  text-decoration: underline;
+}
